@@ -289,7 +289,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // API call to Google Gemini
     async function fetchGeminiResponse(message, history) {
         // Your Google Gemini API key - replace with your actual key from https://aistudio.google.com/apikey
-        const GEMINI_API_KEY = 'AIzaSyDqQqvslqoAWuwIRuSd7nS0KlPbw2lw-qU'; // Replace with your actual API key
+        const GEMINI_API_KEY = 'key'; // Replace with your actual API key
         
         // FIXED: Removed the incorrect condition that was causing the error
         // Only check if API key is empty or placeholder
